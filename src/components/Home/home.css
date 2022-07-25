@@ -1,0 +1,86 @@
+.home__container {
+    height: 100vh;
+    padding-top: 4.5rem;
+    overflow: hidden;
+}
+
+.home__title {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    margin-top: 1rem;
+}
+
+/*=========== Links ===========*/
+.home__links {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/*=========== home__socials ===========*/
+.home__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    position: absolute;
+    left: 0;
+    bottom: 7rem;
+}
+
+.home__socials::after {
+    content: "";
+    width: 2px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/*=========== IMG ME ===========*/
+.home__profile {
+    background: linear-gradient(180deg, var(--color-primary), hsla(181, 95%, 30%, .2));
+    width: 18rem;
+    height: 25.7rem;
+    position: absolute;
+    left: calc(50% - 9rem);
+    margin-top: 7rem;
+    border-radius: 10rem 10rem 1rem 1rem;
+    overflow: hidden;
+    padding: 2.5rem 0;
+}
+
+/*=========== scroll down ===========*/
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 9.2rem;
+    font-weight: 800;
+    font-size: .9rem;
+    display: grid;
+    row-gap: 2.25rem;
+    justify-items: center;
+}
+
+.scroll__down-icon {
+    font-size: 1.25rem;
+}
+
+.scroll__down-text {
+    font-size: var(--small-font-size);
+    transform: rotate(-90deg);
+}
+
+/* ============ media queries (MD) ============ */
+
+@media screen and (max-width:1024px) {}
+
+/* ============ media queries (SM) ============ */
+
+@media screen and (max-width:600px) {
+
+    .home__socials,
+    .scroll__down {
+        display: none;
+    }
+}
