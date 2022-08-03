@@ -4,6 +4,7 @@ import IMG3 from "../assets/img/Portfolio/work3.jpg";
 import IMG4 from "../assets/img/Portfolio/work4.jpg";
 import IMG5 from "../assets/img/Portfolio/work5.jpg";
 import IMG6 from "../assets/img/Portfolio/work6.jpg";
+import IMG7 from "../assets/img/Portfolio/work7.jpg";
 
 export const portfolio = [
   {
@@ -47,5 +48,12 @@ export const portfolio = [
     image: IMG6,
     liveDemo: "https://clon-linktree-6nd75dk4r-jorgecaballero98.vercel.app/",
     github: "https://github.com/jorgecaballero98/Clon-Linktree",
+  },
+  {
+    id: 7,
+    title: "API de Rick and Morty",
+    image: IMG7,
+    liveDemo: "https://rick-and-morty-api-lilac.vercel.app/",
+    github: "https://github.com/jorgecaballero98/Rick-and-Morty-API",
   },
 ];
