@@ -5,6 +5,7 @@ import IMG4 from "../assets/img/Portfolio/work4.jpg";
 import IMG5 from "../assets/img/Portfolio/work5.jpg";
 import IMG6 from "../assets/img/Portfolio/work6.jpg";
 import IMG7 from "../assets/img/Portfolio/work7.jpg";
+import IMG8 from "../assets/img/Portfolio/work8.jpg";
 
 export const portfolio = [
   {
@@ -55,5 +56,12 @@ export const portfolio = [
     image: IMG7,
     liveDemo: "https://rick-and-morty-api-lilac.vercel.app/",
     github: "https://github.com/jorgecaballero98/Rick-and-Morty-API",
+  },
+  {
+    id: 8,
+    title: "API de Marvel Comics",
+    image: IMG8,
+    liveDemo: "https://react-marvel-api-demo.vercel.app/",
+    github: "https://github.com/jorgecaballero98/react-marvel-api",
   },
 ];
